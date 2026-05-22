@@ -16,7 +16,6 @@ cask "vibehub" do
   name "VibeHub"
   desc "Cross-platform launcher for development tools with an AI gateway"
   homepage "https://github.com/ChenM0M/VibeHub"
-  depends_on macos: ">= :high_sierra"
 
   app "VibeHub.app"
   binary "#{appdir}/VibeHub.app/Contents/MacOS/vibehub", target: "vibehub"
