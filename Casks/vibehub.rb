@@ -19,6 +19,7 @@ cask "vibehub" do
   depends_on macos: ">= :high_sierra"
 
   app "VibeHub.app"
+  binary "#{appdir}/VibeHub.app/Contents/MacOS/vibehub", target: "vibehub"
 
   zap trash: [
     "~/Library/Application Support/VibeHub",
