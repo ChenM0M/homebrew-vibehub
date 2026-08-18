@@ -1,15 +1,15 @@
 cask "vibehub" do
-  version "3.3.2"
+  version "3.3.3"
 
   on_arm do
-    sha256 "1ab6962ce6cc2c630fad455bca870acbb8c85a960e008637b46e89e28d0c7de4"
-    url "https://github.com/ChenM0M/VibeHub/releases/download/v3.3.2/VibeHub_3.3.2_aarch64.dmg",
+    sha256 "4584cc34248c36c3ee6be5dc8cdb43c34422b2c3b300363e25e36a5b7e301ead"
+    url "https://github.com/ChenM0M/VibeHub/releases/download/v3.3.3/VibeHub_3.3.3_aarch64.dmg",
         verified: "github.com/ChenM0M/VibeHub/"
   end
 
   on_intel do
-    sha256 "f86d80a9ff7f62c6f98aad0a9c185f7a21ff49e13cbeada24a6916c559feb33a"
-    url "https://github.com/ChenM0M/VibeHub/releases/download/v3.3.2/VibeHub_3.3.2_x64.dmg",
+    sha256 "ed5f2e9f48e0aba9ff234487c6550b18b07e0252650381e48ae083c4b6621751"
+    url "https://github.com/ChenM0M/VibeHub/releases/download/v3.3.3/VibeHub_3.3.3_x64.dmg",
         verified: "github.com/ChenM0M/VibeHub/"
   end
 
